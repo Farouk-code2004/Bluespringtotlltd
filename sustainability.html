@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability - Bluesprings Total Connect LTD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .sustainability-features li,
+        .initiative-features li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .sustainability-features li:before,
+        .initiative-features li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+        }
+
+        .service-card {
+            text-align: left;
+            padding: 2rem;
+        }
+
+        .service-card i {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateX(10px);
+        }
+
+        .feature-item i {
+            margin-right: 1rem;
+            color: var(--primary-color);
+        }
+
+        .sustainability-pledge {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            padding: 3rem;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .sustainability-pledge h3 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Area -->
+    <header class="header-area">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo.jpg" alt="Bluesprings Logo">
+                </a>
+                <button class="nav-toggle" aria-label="Toggle Navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+                    <li><a href="sustainability.html" class="nav-link active">Sustainability</a></li>
+                    <li><a href="clients.html" class="nav-link">Clients</a></li>
+                    <li><a href="management.html" class="nav-link">Management</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h1>Our Commitment to Sustainability</h1>
+                    <p>Building a Better Future Through Responsible Practices</p>
+                </div>
+                
+                <div class="content-section animate-on-scroll">
+                    <p>At Bluesprings Total Connect LTD, sustainability is at the core of our business operations. We are committed to environmental stewardship, social responsibility, and economic sustainability. Our comprehensive approach ensures that we meet the needs of the present while safeguarding resources for future generations.</p>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div class="service-card animate-on-scroll">
+                            <i class="fas fa-water"></i>
+                            <h3>Water Management</h3>
+                            <p>Our advanced water management system includes:</p>
+                            <ul class="sustainability-features">
+                                <li>Water Conservation Programs</li>
+                                <li>Sustainable Sourcing Practices</li>
+                                <li>Wastewater Treatment</li>
+                                <li>Quality Monitoring Systems</li>
+                                <li>Groundwater Protection</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card animate-on-scroll">
+                            <i class="fas fa-bolt"></i>
+                            <h3>Energy Efficiency</h3>
+                            <p>Our energy conservation initiatives include:</p>
+                            <ul class="sustainability-features">
+                                <li>Solar Power Integration</li>
+                                <li>Energy-Efficient Equipment</li>
+                                <li>Smart Energy Management</li>
+                                <li>LED Lighting Systems</li>
+                                <li>Regular Energy Audits</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card animate-on-scroll">
+                            <i class="fas fa-recycle"></i>
+                            <h3>Waste Management</h3>
+                            <p>Our comprehensive waste reduction program includes:</p>
+                            <ul class="sustainability-features">
+                                <li>Plastic Recycling Initiative</li>
+                                <li>Zero Waste Goals</li>
+                                <li>Composting Programs</li>
+                                <li>Waste Segregation</li>
+                                <li>Eco-friendly Packaging</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-grid mt-5">
+                    <!-- Environmental Conservation -->
+                    <div class="product-card animate-on-scroll">
+                        <div class="product-image">
+                            <img src="images/crs-1.jpg" alt="Environmental Conservation">
+                        </div>
+                        <div class="product-content">
+                            <h3>Environmental Conservation</h3>
+                            <p>Our environmental conservation efforts focus on protecting natural resources and promoting biodiversity:</p>
+                            <ul class="initiative-features">
+                                <li>Tree Planting Programs</li>
+                                <li>Wildlife Protection</li>
+                                <li>Habitat Restoration</li>
+                                <li>Environmental Education</li>
+                                <li>Green Space Development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Community Impact -->
+                    <div class="product-card animate-on-scroll">
+                        <div class="product-image">
+                            <img src="images/crs-2.jpg" alt="Community Impact">
+                        </div>
+                        <div class="product-content">
+                            <h3>Community Impact</h3>
+                            <p>Our community engagement initiatives create lasting positive impact:</p>
+                            <ul class="initiative-features">
+                                <li>Local Employment Opportunities</li>
+                                <li>Educational Support Programs</li>
+                                <li>Health & Wellness Initiatives</li>
+                                <li>Community Development Projects</li>
+                                <li>Youth Empowerment Programs</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Future Focus -->
+                    <div class="product-card animate-on-scroll">
+                        <div class="product-image">
+                            <img src="images/crs-3.jpg" alt="Future Focus">
+                        </div>
+                        <div class="product-content">
+                            <h3>Future Focus</h3>
+                            <p>Our commitment to sustainable future includes:</p>
+                            <ul class="initiative-features">
+                                <li>Research & Development</li>
+                                <li>Innovation in Water Treatment</li>
+                                <li>Sustainable Technology Adoption</li>
+                                <li>Carbon Footprint Reduction</li>
+                                <li>Renewable Energy Integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section animate-on-scroll mt-5">
+                    <h2 class="text-center mb-4">Our Environmental Impact</h2>
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <ul class="features-list">
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>50% Reduction in Water Waste</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>30% Energy Usage Reduction</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>75% Waste Recycling Rate</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check"></i>
+                                    <span>1000+ Trees Planted</span>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sustainability-pledge text-center mt-5">
+                    <h3>Our Sustainability Pledge</h3>
+                    <p>We are committed to achieving carbon neutrality by 2030 through continued investment in sustainable practices and technologies. Join us in our journey towards a more sustainable future.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="products-grid">
+                <div class="footer-content">
+                    <h4>About Us</h4>
+                    <p>Bluesprings Total Connect LTD is a leading water solutions provider in Nigeria, committed to delivering pure, safe, and high-quality water products.</p>
+                </div>
+                <div class="footer-content">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@bluesprings.com</p>
+                    <p><i class="fas fa-phone"></i> +234 907 816 1692</p>
+                    <p><i class="fas fa-phone"></i> +234 705 478 6871</p>
+                    <p><i class="fas fa-phone"></i> +234 815 994 9208</p>
+                    <p><i class="fas fa-phone"></i> +234 703 006 3133</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Plot 65, Jedo Estate, Sabon Lugbe, Abuja, Nigeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bluesprings Total Connect LTD. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Navbar Scroll Effect
+        const navbar = document.querySelector('.navbar');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll Animations
+        const animateElements = document.querySelectorAll('.animate-fade-in, .animate-on-scroll');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        animateElements.forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html> 
